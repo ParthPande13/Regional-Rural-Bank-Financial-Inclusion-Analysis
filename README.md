@@ -2,15 +2,13 @@
 
 An end-to-end data analytics project examining financial inclusion metrics across Regional Rural Banks (RRBs) in India — covering account penetration, digital adoption, deposits, loans, and rural-urban banking gaps across 20 states, 100 districts, and 5 years (2021–2025).
 
-
-
 ---
 
-##  Project Overview
+## 📌 Project Overview
 
 This project analyzes quarterly RRB banking data to understand how well financial inclusion initiatives are performing across different regions and demographics in India. The analysis covers account activity, women's participation, digital banking adoption (mobile/internet/UPI), and credit-deposit patterns, with the goal of identifying which factors most strongly drive actual account usage — not just account ownership.
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - **Python** — Pandas, NumPy (data cleaning, transformation, analysis)
 - **Matplotlib & Seaborn** — visualizations
@@ -18,9 +16,9 @@ This project analyzes quarterly RRB banking data to understand how well financia
 - **SQLAlchemy / mysql-connector-python** — Python-to-MySQL connectivity
 - **Power BI** — interactive dashboard
 
-## Repository Structure
+## 📂 Repository Structure
 
-
+```
 ├── data/
 │   ├── raw/                                  # Original unprocessed dataset
 │   └── processed/                            # Cleaned dataset (post EDA)
@@ -31,7 +29,7 @@ This project analyzes quarterly RRB banking data to understand how well financia
 ├── Research_Paper_1_Domain.pdf               # Financial inclusion domain research
 ├── Research_Paper_2_Technology.pdf           # Python/SQL/Power BI technology research
 └── README.md
-
+```
 
 ## 🔍 Key Findings
 
@@ -93,4 +91,3 @@ The Power BI dashboard includes:
 - All financial figures are in **Lakh (₹100,000)** units, per Indian financial reporting convention.
 
 ---
-
